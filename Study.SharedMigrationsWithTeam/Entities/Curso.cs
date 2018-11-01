@@ -14,5 +14,6 @@ namespace Study.SharedMigrationsWithTeam.Entities
         public long DepartamentoId { get; set; }
         public virtual Departamento Departamento { get; set; }
         public string Campo2 { get; set; }
+        public string Campo3 { get; set; }
     }
 }
