@@ -168,6 +168,10 @@
     <Compile Include="Migrations\201811011427013_AddHorasCurso.Designer.cs">
       <DependentUpon>201811011427013_AddHorasCurso.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201811011448060_AddCoordenadorDepartamento.cs" />
+    <Compile Include="Migrations\201811011448060_AddCoordenadorDepartamento.Designer.cs">
+      <DependentUpon>201811011448060_AddCoordenadorDepartamento.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -234,6 +238,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201811011427013_AddHorasCurso.resx">
       <DependentUpon>201811011427013_AddHorasCurso.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201811011448060_AddCoordenadorDepartamento.resx">
+      <DependentUpon>201811011448060_AddCoordenadorDepartamento.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
