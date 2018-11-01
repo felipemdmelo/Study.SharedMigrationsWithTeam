@@ -180,6 +180,10 @@
     <Compile Include="Migrations\201811011519179_Campo1.Designer.cs">
       <DependentUpon>201811011519179_Campo1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201811011526402_Campo2.cs" />
+    <Compile Include="Migrations\201811011526402_Campo2.Designer.cs">
+      <DependentUpon>201811011526402_Campo2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -255,6 +259,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201811011519179_Campo1.resx">
       <DependentUpon>201811011519179_Campo1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201811011526402_Campo2.resx">
+      <DependentUpon>201811011526402_Campo2.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

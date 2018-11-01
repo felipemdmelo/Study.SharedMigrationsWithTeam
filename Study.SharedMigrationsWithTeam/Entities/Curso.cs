@@ -13,5 +13,6 @@ namespace Study.SharedMigrationsWithTeam.Entities
         public string Professor { get; set; }
         public long DepartamentoId { get; set; }
         public virtual Departamento Departamento { get; set; }
+        public string Campo2 { get; set; }
     }
 }
