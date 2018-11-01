@@ -13,7 +13,7 @@ namespace Study.SharedMigrationsWithTeam.Migrations
         
         string IMigrationMetadata.Id
         {
-            get { return "201811011438298_AddProfessorCurso"; }
+            get { return "201811011506091_AddProfessorCurso"; }
         }
         
         string IMigrationMetadata.Source
