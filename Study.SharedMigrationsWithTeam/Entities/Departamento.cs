@@ -10,5 +10,6 @@ namespace Study.SharedMigrationsWithTeam.Entities
         public long Id { get; set; }
         public string Nome { get; set; }
         public string Coordenador { get; set; }
+        public string Campo1 { get; set; }
     }
 }
