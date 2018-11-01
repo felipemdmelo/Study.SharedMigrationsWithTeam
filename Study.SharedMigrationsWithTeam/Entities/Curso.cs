@@ -10,6 +10,7 @@ namespace Study.SharedMigrationsWithTeam.Entities
         public long Id { get; set; }
         public string Nome { get; set; }
         public int Horas { get; set; }
+        public string Professor { get; set; }
         public long DepartamentoId { get; set; }
         public virtual Departamento Departamento { get; set; }
     }
