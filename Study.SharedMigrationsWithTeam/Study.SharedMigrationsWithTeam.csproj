@@ -164,6 +164,10 @@
     <Compile Include="Migrations\201811011418190_InitialMigration.Designer.cs">
       <DependentUpon>201811011418190_InitialMigration.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201811011427013_AddHorasCurso.cs" />
+    <Compile Include="Migrations\201811011427013_AddHorasCurso.Designer.cs">
+      <DependentUpon>201811011427013_AddHorasCurso.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -227,6 +231,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201811011418190_InitialMigration.resx">
       <DependentUpon>201811011418190_InitialMigration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201811011427013_AddHorasCurso.resx">
+      <DependentUpon>201811011427013_AddHorasCurso.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
